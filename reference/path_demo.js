@@ -12,7 +12,7 @@ console.log(__dirname)
 console.log(path.dirname(__filename))
 // = /Users/adampond/development/backend-projects/node-1/reference  ~~~ both produce the same result
 
-// to find file extension ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// to find file extension - the last part of the path after the dot e.g. .html .css .js  ~~~~~~~~~~~~~~~~~
 console.log(path.extname(__filename))
 
 // create an object from parts of the path ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

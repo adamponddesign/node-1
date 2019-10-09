@@ -4,5 +4,5 @@ const person = {
   car: 'ford'
 }
 
-console.log('this is the person module ' + module)
+console.log('this is the person module ', module)
 module.exports = person
